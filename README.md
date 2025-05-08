@@ -1,46 +1,79 @@
-# 🛡️ TryHackMe Writeups by Folasade Nasir
+# Active Reconnaissance (TryHackMe)
 
-Welcome to my collection of **cybersecurity lab writeups** from [TryHackMe](https://tryhackme.com). These write-ups document my learning journey through hands-on rooms and challenges focused on topics, like information gathering, exploitation, privilege escalation, and more.
-
-> 🚨 No flags or answers are shared in these writeups. All notes are for educational purposes and follow TryHackMe's Terms of Use.
-
----
-
-## 📁 Writeups Included
-
-| Room Name                                                         | Category         | Difficulty | Notes |
-|----------                                                          |-----------      |------------      |-------|
-| [Passive Reconnaissance](./passive-reconnaissance/README.md) | Information Gathering | Easy | OSINT techniques |
+🔗 Room Name: Active Reconnaissance  
+🧠 Difficulty: Easy  
+📁 Category: Information Gathering
 
 ---
 
-## 🎯 What You'll Find Here
+## 📝 Overview
 
-- 🔍 Step-by-step methodology
-- 🧰 Tools used during each lab
-- ✅ Key takeaways and learning points
-- 📚 Ethical hacking best practices
+This room focuses on **active reconnaissance**, where interaction with the target system occurs to gather more detailed information. Unlike passive recon, this involves sending packets or making requests directly to the target.
 
 ---
 
-## 💡 Why I Created This Repo
+## 🛠️ Tools Used
 
-- Reinforce what I learn by documenting it
-- Share my approach without revealing solutions
-- Help others understand methodologies in real-world scenarios
-- Build a cybersecurity portfolio for future roles
-
----
-
-## 📜 License
-
-This repository is licensed under the [MIT License](LICENSE).  
-*These write-ups are my work and do not contain or encourage unauthorised access to systems.*
+- Web Browser
+- `ping`
+- `traceroute`
+- `telnet`
+- `netcat (nc)`
 
 ---
 
-## 🙋‍♂️ About Me
+## 🧪 Learning Objectives
 
-I’m a cybersecurity enthusiast with hands-on experience in penetration testing labs and a passion for learning offensive and defensive security.  
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/folasade-nasir) or check out more projects in my [GitHub profile](https://github.com/cybershade-sudo).
+- Understand the difference between passive and active recon
+- Use basic network utilities to interact with and gather information from a target
+- Recognize how network topology and services can be discovered through direct interaction
 
+---
+
+## 🔍 Key Techniques Practiced
+
+### ✅ Ping
+
+Used to check if a host is online and to measure latency:
+
+```bash
+ping target-ip
+```
+
+### ✅ Traceroute
+
+Mapped the path packets take to a destination:
+
+```bash
+traceroute target-ip
+```
+
+### ✅ Telnet
+
+Used to test open ports and banner grab services:
+
+```bash
+telnet target-ip 80
+```
+
+### ✅ Netcat
+
+Utilized for port scanning and manual communication:
+
+```bash
+nc -v target-ip 80
+```
+
+---
+
+## 🎯 Key Takeaways
+
+- Active reconnaissance provides more detailed, real-time information but is detectable.
+- Basic tools like `ping`, `traceroute`, and `telnet` are powerful for initial assessments.
+- Understanding service banners and response behavior is essential for later phases like exploitation.
+
+---
+
+## ⚠️ Ethical Notice
+
+This writeup is for educational purposes only. It respects the rules of TryHackMe and does not reveal solutions or flags.

@@ -42,5 +42,5 @@ This repository is licensed under the [MIT License](LICENSE).
 ## 🙋‍♂️ About Me
 
 I’m a cybersecurity enthusiast with hands-on experience in penetration testing labs and a passion for learning offensive and defensive security.  
-Feel free to connect with me on [LinkedIn](https://linkedin.com/in/yfolasade-nasir) or check out more projects in my [GitHub profile](https://github.com/cybershade-sudo).
+Feel free to connect with me on [LinkedIn](https://linkedin.com/in/folasade-nasir) or check out more projects in my [GitHub profile](https://github.com/cybershade-sudo).
 
